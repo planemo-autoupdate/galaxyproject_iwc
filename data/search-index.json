@@ -185,7 +185,7 @@
     {
         "iwcID": "short-read-qc-trimming-main",
         "trsID": "#workflow/github.com/iwc-workflows/short-read-qc-trimming/main",
-        "uuid": "416f8154-eaa2-4583-b6b0-c80011ea84f8",
+        "uuid": "bfd8b0dc-aad9-4eed-99ae-635e8844f932",
         "name": "Short-read quality control and trimming",
         "annotation": "This workflow performs quality control and trimming on paired-end Illumina fastq(.gz) files using fastp and aggregates the quality control reports with MultiQC",
         "tags": [
@@ -196,11 +196,11 @@
             "eukaryotes",
             "archea"
         ],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Quality Control and Pre-processing"
         ],
-        "updated": "2026-01-30T00:00:00"
+        "updated": "2026-06-22T00:00:00"
     },
     {
         "iwcID": "average-bigwig-between-replicates-main",
@@ -433,7 +433,7 @@
     {
         "iwcID": "haploid-variant-calling-wgs-pe-main",
         "trsID": "#workflow/github.com/iwc-workflows/haploid-variant-calling-wgs-pe/main",
-        "uuid": "d5b4eace-d876-4999-bad3-14c1cb02b0c9",
+        "uuid": "fac3e101-60e9-4283-9df8-f364dc2b140a",
         "name": "Paired end variant calling in haploid system",
         "annotation": "Workflow for variant analysis against a reference genome in GenBank format",
         "tags": [
@@ -441,11 +441,11 @@
             "VeuPath",
             "Haploid"
         ],
-        "release": "0.1",
+        "release": "0.2",
         "collections": [
             "Variant Calling"
         ],
-        "updated": "2024-10-29T00:00:00"
+        "updated": "2026-06-22T00:00:00"
     },
     {
         "iwcID": "gromacs-mmgbsa-main",
@@ -657,13 +657,13 @@
     {
         "iwcID": "metadata-and-sequences-from-bioproject-ids-main",
         "trsID": "#workflow/github.com/iwc-workflows/metadata-and-sequences-from-bioproject-ids/main",
-        "uuid": "0b6e2c6b-4044-4283-b262-db6e87a5a9ef",
+        "uuid": "822439f6-4263-4dbf-b147-005b94b2046c",
         "name": "Metadata and Sequences from BioProject IDs",
         "annotation": "This workflow performs retrieval of SRA metadata tables and FASTQ sequence files from input BioProject IDs.",
         "tags": [],
-        "release": "0.1",
+        "release": "0.2",
         "collections": [],
-        "updated": "2026-03-23T00:00:00"
+        "updated": "2026-07-06T00:00:00"
     },
     {
         "iwcID": "parallel-accession-download-main",
@@ -728,15 +728,15 @@
     {
         "iwcID": "polish-with-long-reads-main",
         "trsID": "#workflow/github.com/iwc-workflows/polish-with-long-reads/main",
-        "uuid": "68d6270a-bfd1-452a-abc9-4a314e13af85",
+        "uuid": "cebcdbb0-b990-48db-845f-b54ad57e1007",
         "name": "Assembly polishing with long reads",
         "annotation": "Racon polish with long reads, x4",
         "tags": [],
-        "release": "0.1",
+        "release": "0.2",
         "collections": [
             "Genome assembly"
         ],
-        "updated": "2023-07-15T00:00:00"
+        "updated": "2026-06-22T00:00:00"
     },
     {
         "iwcID": "quality-and-contamination-control-raw-reads-main",
@@ -922,7 +922,7 @@
     {
         "iwcID": "host-contamination-removal-long-reads-main",
         "trsID": "#workflow/github.com/iwc-workflows/host-contamination-removal-long-reads/main",
-        "uuid": "dd1fa1e1-99f1-4094-bb87-d797ae61c74e",
+        "uuid": "55c47277-c28c-42c8-924b-05273d79fe1e",
         "name": "Host or Contamination Removal on Long-Reads",
         "annotation": "This workflow takes Nanopore fastq(.gz) files and runs Minimap2 to map the reads against a reference genome (human, by default). It filters the output to keep only the unmapped reads and generates mapping statistics that are aggregated into a MultiQC report.",
         "tags": [
@@ -930,12 +930,12 @@
             "contamination",
             "long_reads"
         ],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-01-19T00:00:00"
+        "updated": "2026-02-16T00:00:00"
     },
     {
         "iwcID": "nanopore-pre-processing-main",
@@ -1013,7 +1013,7 @@
     {
         "iwcID": "allele-based-pathogen-identification-main",
         "trsID": "#workflow/github.com/iwc-workflows/allele-based-pathogen-identification/main",
-        "uuid": "435875a1-72c4-4fda-8943-3a78f25c6574",
+        "uuid": "5b25a822-e9f9-4e24-8f96-93d4ce7be196",
         "name": "Allele-based Pathogen Identification",
         "annotation": "Microbiome - Variant calling and Consensus Building",
         "tags": [
@@ -1022,11 +1022,11 @@
             "name:PathoGFAIR",
             "name:IWC"
         ],
-        "release": "0.1.4",
+        "release": "0.1.5",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-06-22T00:00:00"
     },
     {
         "iwcID": "metagenomic-raw-reads-amr-analysis-main",
@@ -1051,15 +1051,15 @@
     {
         "iwcID": "mag-genome-annotation-parallel-main",
         "trsID": "#workflow/github.com/iwc-workflows/mag-genome-annotation-parallel/main",
-        "uuid": "53396aff-fb10-481b-ab89-515657510118",
+        "uuid": "3f05757b-d5b4-4b0b-a201-923bc8adce42",
         "name": "MAG Genome Annotation Parallel",
         "annotation": "This workflow performs automated, parallel annotation of metagenome-assembled genomes (MAGs) to generate standardized annotation outputs, merged summary tables, and integrated quality reports across all genomes.",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-04-06T00:00:00"
+        "updated": "2026-06-22T00:00:00"
     },
     {
         "iwcID": "mags-building-main",
@@ -1851,18 +1851,18 @@
     {
         "iwcID": "rnaseq-pe-main",
         "trsID": "#workflow/github.com/iwc-workflows/rnaseq-pe/main",
-        "uuid": "e1930fd2-404e-4159-ac35-fc90e5ee054b",
+        "uuid": "b019ab40-6acc-4cb3-a45a-0e4c968860c1",
         "name": "RNA-Seq Analysis: Paired-End Read Processing and Quantification",
         "annotation": "Complete RNA-Seq analysis for paired-end data: Processes raw FASTQ data through adapter and bad quality removal (fastp), alignment with STAR using ENCODE parameters, gene quantification via multiple methods (STAR and featureCounts), and expression calculation (FPKM with Cufflinks/StringTie, normalized coverage with bedtools). Produces count tables, normalized expression values, and genomic coverage tracks. Supports stranded and unstranded libraries, generating both HTSeq-compatible counts and normalized measures for downstream analysis.",
         "tags": [
             "RNAseq",
             "transcriptomics"
         ],
-        "release": "1.4",
+        "release": "1.5",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-06-24T00:00:00"
+        "updated": "2026-07-06T00:00:00"
     },
     {
         "iwcID": "goseq-main",
@@ -1880,18 +1880,18 @@
     {
         "iwcID": "rnaseq-sr-main",
         "trsID": "#workflow/github.com/iwc-workflows/rnaseq-sr/main",
-        "uuid": "cf089938-1be2-42c8-9453-ff1ca4152c02",
+        "uuid": "97b54753-b622-49ad-8124-d4dcb4b98130",
         "name": "RNA-Seq Analysis: Single-End Read Processing and Quantification",
         "annotation": "Complete RNA-Seq analysis for single-end data:  Processes raw FASTQ data through adapter and bad quality removal (fastp), alignment with STAR using ENCODE parameters, gene quantification via multiple methods (STAR and featureCounts), and expression calculation (FPKM with Cufflinks/StringTie, normalized coverage with bedtools). Produces count tables, normalized expression values, and genomic coverage tracks. Supports stranded and unstranded libraries, generating both HTSeq-compatible counts and normalized measures for downstream analysis.",
         "tags": [
             "RNAseq",
             "transcriptomics"
         ],
-        "release": "1.4",
+        "release": "1.5",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-06-24T00:00:00"
+        "updated": "2026-07-06T00:00:00"
     },
     {
         "iwcID": "rnaseq-de-main",
