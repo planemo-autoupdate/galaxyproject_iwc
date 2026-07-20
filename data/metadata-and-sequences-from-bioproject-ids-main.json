@@ -832,7 +832,9 @@
     "repoPath": "./workflows/data-fetching/metadata-and-sequences-from-bioproject-ids",
     "dockstore_id": 37620,
     "categories": [],
-    "collections": [],
+    "collections": [
+        "Data Fetching"
+    ],
     "doi": "10.5281/zenodo.21162258",
     "tests": [
         {
@@ -850,6 +852,7 @@
             },
             "outputs": {
                 "SRA metadata table": {
+                    "class": "Collection",
                     "element_tests": {
                         "PRJNA1417618": {
                             "path": "test-data/test1_metadata_file_split_file_000000.txt.tsv"
@@ -857,6 +860,7 @@
                     }
                 },
                 "Paired End Reads": {
+                    "class": "Collection",
                     "element_tests": {
                         "SRR37073390": {
                             "forward": {
@@ -889,6 +893,7 @@
             },
             "outputs": {
                 "SRA metadata table": {
+                    "class": "Collection",
                     "element_tests": {
                         "PRJNA1425250": {
                             "path": "test-data/test2_metadata_file_split_file_000000.txt.tsv",
@@ -901,6 +906,7 @@
                     }
                 },
                 "Paired End Reads": {
+                    "class": "Collection",
                     "element_tests": {
                         "SRR37273408": {
                             "forward": {
@@ -929,6 +935,7 @@
                     }
                 },
                 "Single End Reads": {
+                    "class": "Collection",
                     "element_tests": {
                         "SRR37273407": {
                             "path": "test-data/test2_SRR37273407_forward.fastq",
@@ -954,6 +961,7 @@
             },
             "outputs": {
                 "SRA metadata table": {
+                    "class": "Collection",
                     "element_tests": {
                         "PRJNA1417618": {
                             "path": "test-data/test3_metadata.tsv"
@@ -961,6 +969,7 @@
                     }
                 },
                 "Paired End Reads": {
+                    "class": "Collection",
                     "element_tests": {
                         "SRR37073390": {
                             "forward": {
