@@ -657,20 +657,20 @@
     {
         "iwcID": "mapseq-to-ampvis2-main",
         "trsID": "#workflow/github.com/iwc-workflows/mapseq-to-ampvis2/main",
-        "uuid": "e24060a0-1cfe-40f1-9251-48e96f7e1121",
+        "uuid": "78772b5a-3df5-4c90-bd6b-9104496585b6",
         "name": "MAPseq to ampvis2",
         "annotation": "The MAPseq to Ampvis workflow processes MAPseq OTU tables and associated metadata for analysis in Ampvis2. This workflow involves reformatting MAPseq output datasets to produce structured output files suitable for Ampvis2.",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-paired-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-paired-end/main",
-        "uuid": "5d7d38e4-ebbe-4b68-9155-aa2952a1fc8f",
+        "uuid": "b285e567-f6c5-4fa6-8786-aba64ac88afa",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control PE",
         "annotation": "Quality control subworkflow for paired-end reads. ",
         "tags": [
@@ -679,16 +679,16 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.5",
+        "release": "0.6",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-07-20T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-single-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-single-end/main",
-        "uuid": "2a72257e-91f2-4a67-9088-1bbdcf23cf1c",
+        "uuid": "989b2562-b474-492e-aeaa-788330ffef0a",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control SE",
         "annotation": "Quality control subworkflow for single-end reads.",
         "tags": [
@@ -697,16 +697,16 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.4",
+        "release": "0.5",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-07-20T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "taxonomic-rank-abundance-summary-table-main",
         "trsID": "#workflow/github.com/iwc-workflows/taxonomic-rank-abundance-summary-table/main",
-        "uuid": "31b19088-dad2-41a0-b086-94037bce4784",
+        "uuid": "73349a4e-bed1-467e-8d39-493574022230",
         "name": "Taxonomic abundance summary tables for a specified taxonomic rank",
         "annotation": "This workflow creates taxonomic summary tables for a specified taxonomic rank out of MAPseq's OTU tables output collection.",
         "tags": [
@@ -715,16 +715,16 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-taxonomic-summary-tables-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-taxonomic-summary-tables/main",
-        "uuid": "dda70895-1e39-42a3-8b4f-b6493cf15e8f",
+        "uuid": "41d1b39b-2863-4149-adea-63d401ec65e3",
         "name": "MGnify amplicon summary tables",
         "annotation": "This workflow creates taxonomic summary tables out of the amplicon pipeline results. ",
         "tags": [
@@ -733,16 +733,16 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-its-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-its/main",
-        "uuid": "04fa2e92-8fcd-4a20-8af1-063c7f514f12",
+        "uuid": "46b0c71b-33d3-426d-b7a4-0e621be54d6f",
         "name": "MGnify's amplicon pipeline v5.0 - ITS",
         "annotation": "Classification and visualization of ITS regions.",
         "tags": [
@@ -751,16 +751,16 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-complete-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-complete/main",
-        "uuid": "dbe69509-5027-41e2-a7bb-bfb46d4d6f53",
+        "uuid": "56dac05c-9f62-40c8-b15e-b9ff1857b110",
         "name": "MGnify's amplicon pipeline v5.0",
         "annotation": "MGnify's amplicon pipeline v5.0. Including the Quality control for single-end and paired-end reads, rRNA-prediction, and ITS sub-WFs.",
         "tags": [
@@ -769,16 +769,16 @@
             "amplicon",
             "name:microgalaxy"
         ],
-        "release": "0.5",
+        "release": "0.6",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-07-20T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-rrna-prediction-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-rrna-prediction/main",
-        "uuid": "53c5bc12-4d7c-4799-b053-ced394665d61",
+        "uuid": "db8f02f6-e714-409c-ba7f-30caccc7dcee",
         "name": "MGnify's amplicon pipeline v5.0 - rRNA prediction",
         "annotation": "Classification and visualization of SSU, LSU sequences.",
         "tags": [
@@ -787,11 +787,11 @@
             "amplicon",
             "name:microgalaxy"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2025-03-10T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "metadata-and-sequences-from-bioproject-ids-main",
