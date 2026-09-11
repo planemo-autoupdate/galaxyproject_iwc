@@ -270,18 +270,18 @@
     {
         "iwcID": "rnaseq-de-main",
         "trsID": "#workflow/github.com/iwc-workflows/rnaseq-de/main",
-        "uuid": "80a29f89-9cb8-4e9e-b660-9052ce7c21cd",
+        "uuid": "a58f0532-b9c0-48d0-8e28-68b8e2cf4a86",
         "name": "RNA-Seq Differential Expression Analysis with Visualization",
         "annotation": "Identifies differentially expressed genes between exactly two experimental conditions from count tables. The workflow performs statistical testing, applies filters based on adjusted p-value and log2 fold change thresholds, and generates publication-quality visualizations including volcano plots, MA plots, and heatmaps. Takes two collections of count tables as input and produces filtered gene lists and interactive plots for interpreting expression differences. Optimal for simple two-condition experimental designs.",
         "tags": [
             "transcriptomics",
             "RNAseq"
         ],
-        "release": "0.11",
+        "release": "0.12",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-07-14T00:00:00"
+        "updated": "2026-08-24T00:00:00"
     },
     {
         "iwcID": "rnaseq-sr-main",
@@ -603,15 +603,15 @@
     {
         "iwcID": "mag-genome-annotation-parallel-main",
         "trsID": "#workflow/github.com/iwc-workflows/mag-genome-annotation-parallel/main",
-        "uuid": "3db8aa4f-2428-44e1-a552-873270452211",
+        "uuid": "dff4d756-a776-422f-bb5a-7d75a1afa7a3",
         "name": "MAG Genome Annotation Parallel",
         "annotation": "This workflow performs automated, parallel annotation of metagenome-assembled genomes (MAGs) to generate standardized annotation outputs, merged summary tables, and integrated quality reports across all genomes.",
         "tags": [],
-        "release": "0.4",
+        "release": "0.5",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-07-20T00:00:00"
+        "updated": "2026-09-07T00:00:00"
     },
     {
         "iwcID": "binning-evaluation-main",
@@ -1317,7 +1317,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-single-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-single-end/main",
-        "uuid": "f77915d6-b82a-4d62-b40d-bd037462c06d",
+        "uuid": "6b6cfc74-c55e-492f-b10d-a957f19b25a4",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control SE",
         "annotation": "Quality control subworkflow for single-end reads.",
         "tags": [
@@ -1326,11 +1326,11 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.6",
+        "release": "0.7",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-08-31T00:00:00"
+        "updated": "2026-09-07T00:00:00"
     },
     {
         "iwcID": "mapseq-to-ampvis2-main",
@@ -1384,7 +1384,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-complete-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-complete/main",
-        "uuid": "6dd61dee-c222-4525-906c-85946e1923c4",
+        "uuid": "6ed42ec3-5881-4c08-ae4b-fd4827378b67",
         "name": "MGnify's amplicon pipeline v5.0",
         "annotation": "MGnify's amplicon pipeline v5.0. Including the Quality control for single-end and paired-end reads, rRNA-prediction, and ITS sub-WFs.",
         "tags": [
@@ -1393,11 +1393,11 @@
             "amplicon",
             "name:microgalaxy"
         ],
-        "release": "0.7",
+        "release": "0.8",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-08-31T00:00:00"
+        "updated": "2026-09-07T00:00:00"
     },
     {
         "iwcID": "taxonomic-rank-abundance-summary-table-main",
@@ -1420,7 +1420,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-paired-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-paired-end/main",
-        "uuid": "030862ad-dea1-4f45-ad8f-a1f43200d870",
+        "uuid": "3704257c-a8bc-4b1f-ac50-327db24add87",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control PE",
         "annotation": "Quality control subworkflow for paired-end reads. ",
         "tags": [
@@ -1429,11 +1429,11 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.7",
+        "release": "0.8",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-08-31T00:00:00"
+        "updated": "2026-09-07T00:00:00"
     },
     {
         "iwcID": "influenza-isolates-consensus-and-subtyping-main",
