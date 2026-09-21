@@ -916,12 +916,15 @@
     "repoPath": "./workflows/variant-calling/ploidy-aware-genotype-calling",
     "dockstore_id": 35924,
     "categories": [
+        "Genetic variation analysis",
         "Genome annotation",
         "Sequence alignment",
+        "Sequence alignment validation",
         "Sequencing quality control",
         "Variant calling",
         "Variant classification",
         "Comparative genomics",
+        "Genetic variation",
         "Genome resequencing",
         "Population genomics",
         "Variant annotation",
@@ -933,6 +936,7 @@
         "BAM",
         "VCF",
         "Quality control report",
+        "Report",
         "Variant call data"
     ],
     "collections": [

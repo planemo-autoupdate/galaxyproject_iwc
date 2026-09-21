@@ -1879,61 +1879,61 @@
     {
         "iwcID": "consensus-peaks-consensus-peaks-chip-sr",
         "trsID": "#workflow/github.com/iwc-workflows/consensus-peaks/consensus-peaks-chip-sr",
-        "uuid": "a9c3085f-083d-43ec-9425-9d36b322fee5",
+        "uuid": "b262fd23-0d93-43ce-9129-c1808098b2b0",
         "name": "Consensus Peak Calling for ChIP-seq Single-End Replicates",
         "annotation": "Identifies high-confidence consensus peaks from ChIP-seq single-end replicate experiments. The workflow calls peaks on individual replicates and identifies their intersection. To control for sequencing depth differences, it subsamples all replicates to the smallest library size, performs peak calling on the combined normalized data, and retains only peaks whose summits overlap with intersections from a user-defined minimum number of replicates.",
         "tags": [
             "ATAC-seq"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Epigenetics"
         ],
-        "updated": "2026-06-01T00:00:00"
+        "updated": "2026-09-18T00:00:00"
     },
     {
         "iwcID": "consensus-peaks-consensus-peaks-chip-pe",
         "trsID": "#workflow/github.com/iwc-workflows/consensus-peaks/consensus-peaks-chip-pe",
-        "uuid": "c95f796f-e433-4c76-9327-3b206fca1644",
+        "uuid": "7e73afec-6db6-4b6c-a21d-1bcd4f5cbfb2",
         "name": "Consensus Peak Calling for ChIP-seq Paired-End Replicates",
         "annotation": "Identifies high-confidence consensus peaks from ChIP-seq paired-end replicate experiments. The workflow calls peaks on individual replicates and identifies their intersection. To control for sequencing depth differences, it subsamples all replicates to the smallest library size, performs peak calling on the combined normalized data, and retains only peaks whose summits overlap with intersections from a user-defined minimum number of replicates.",
         "tags": [
             "ATAC-seq"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Epigenetics"
         ],
-        "updated": "2026-06-01T00:00:00"
+        "updated": "2026-09-18T00:00:00"
     },
     {
         "iwcID": "consensus-peaks-consensus-peaks-atac-cutandrun",
         "trsID": "#workflow/github.com/iwc-workflows/consensus-peaks/consensus-peaks-atac-cutandrun",
-        "uuid": "d2636dbe-8e14-4d3a-84e7-f92740d8f03c",
+        "uuid": "a3cbc079-73af-4202-81ab-1b1e4df82ef7",
         "name": "Consensus Peak Calling for ATAC-seq and CUT and RUN Replicates",
         "annotation": "Identifies high-confidence consensus peaks from ATAC-seq or CUT and RUN replicate experiments. The workflow calls peaks on individual replicates and identifies their intersection. To control for sequencing depth differences, it subsamples all replicates to the smallest library size, performs peak calling on the combined normalized data, and retains only peaks whose summits overlap with intersections from a user-defined minimum number of replicates.",
         "tags": [
             "ATAC-seq"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Epigenetics"
         ],
-        "updated": "2026-06-01T00:00:00"
+        "updated": "2026-09-18T00:00:00"
     },
     {
         "iwcID": "average-bigwig-between-replicates-main",
         "trsID": "#workflow/github.com/iwc-workflows/average-bigwig-between-replicates/main",
-        "uuid": "c6ed4b0e-d719-4997-9860-ba99488ec332",
+        "uuid": "a2b8399c-7ea6-4e1a-a95d-1bc065a88104",
         "name": "BigWig Replicates Averaging Workflow",
         "annotation": "Calculates average signal values across replicate BigWig files to generate a single consolidated track. Requires input file identifiers formatted as \"sample_name_replicateID\". The tool automatically groups files by sample name, computes the mean signal at each position, and outputs consolidated BigWig files named after the common sample prefix (without the replicate ID suffix).",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Epigenetics",
             "Transcriptomics"
         ],
-        "updated": "2023-09-27T00:00:00"
+        "updated": "2026-09-18T00:00:00"
     },
     {
         "iwcID": "repeatmasking-main",
