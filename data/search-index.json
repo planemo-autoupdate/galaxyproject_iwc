@@ -2,13 +2,28 @@
     {
         "iwcID": "dna-seq-classification-lstm-main",
         "trsID": "#workflow/github.com/iwc-workflows/dna-seq-classification-lstm/main",
-        "uuid": "f07a1090-91f0-439e-a56a-32d48f9e21b2",
+        "uuid": "3f61aa61-a7c3-4b07-84a9-42599fcf1fd5",
         "name": "DNA sequence classification using LSTM neural network",
         "annotation": "This workflow performs DNA sequence classification using an LSTM neural network to generate predicted labels from test DNA sequences",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [],
-        "updated": "2026-10-05T00:00:00"
+        "updated": "2026-10-19T00:00:00"
+    },
+    {
+        "iwcID": "filter-matrix-by-highly-variable-features-main",
+        "trsID": "#workflow/github.com/iwc-workflows/filter-matrix-by-highly-variable-features/main",
+        "uuid": "d9258348-9ada-4143-bfe3-fc04a59ec95c",
+        "name": "filter a matrix by highly variable features",
+        "annotation": "This workflow computes the per-row variance of a feature-by-sample matrix and keeps the top N most variable features.",
+        "tags": [
+            "transcriptomics",
+            "feature-selection",
+            "matrix"
+        ],
+        "release": "0.1",
+        "collections": [],
+        "updated": "2026-10-18T00:00:00"
     },
     {
         "iwcID": "baredsc-baredsc-1d-lognorm",
@@ -297,7 +312,7 @@
     {
         "iwcID": "sars-cov-2-pe-illumina-wgs-variant-calling-covid-19-pe-wgs-illumina",
         "trsID": "#workflow/github.com/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling/COVID-19-PE-WGS-ILLUMINA",
-        "uuid": "ad5ad880-70bb-4919-9971-ab2ce4957316",
+        "uuid": "3bad99c5-88e7-45f8-b2c8-7763c4295ea4",
         "name": "COVID-19: variation analysis on WGS PE data",
         "annotation": "This workflows performs paired end read mapping with bwa-mem followed by sensitive variant calling across a wide range of AFs with lofreq",
         "tags": [
@@ -306,12 +321,12 @@
             "iwc",
             "emergen_validated"
         ],
-        "release": "0.2.6",
+        "release": "0.2.7",
         "collections": [
             "SARS-COV-2",
             "Variant Calling"
         ],
-        "updated": "2026-10-18T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "sars-cov-2-variation-reporting-covid-19-variation-reporting",
@@ -333,7 +348,7 @@
     {
         "iwcID": "sars-cov-2-pe-illumina-artic-variant-calling-covid-19-pe-artic-illumina",
         "trsID": "#workflow/github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling/COVID-19-PE-ARTIC-ILLUMINA",
-        "uuid": "0975639b-71a6-4306-90ab-40c2fdf1695e",
+        "uuid": "c8a3f7ca-ad1d-4f32-9839-efef7f8eba2d",
         "name": "COVID-19: variation analysis on ARTIC PE data",
         "annotation": "The workflow for Illumina-sequenced ARTIC data builds on the RNASeq workflow for paired-end data using the same steps for mapping and variant calling, but adds extra logic for trimming ARTIC primer sequences off reads with the ivar package. In addition, this workflow uses ivar also to identify amplicons affected by ARTIC primer-binding site mutations and tries to exclude reads derived from such tainted amplicons when calculating allele-frequencies of other variants.",
         "tags": [
@@ -341,28 +356,28 @@
             "ARTIC",
             "covid19.galaxyproject.org"
         ],
-        "release": "0.5.6",
+        "release": "0.5.7",
         "collections": [
             "SARS-COV-2",
             "Variant Calling"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "sars-cov-2-consensus-from-variation-covid-19-consensus-construction",
         "trsID": "#workflow/github.com/iwc-workflows/sars-cov-2-consensus-from-variation/COVID-19-CONSENSUS-CONSTRUCTION",
-        "uuid": "b91a01aa-0653-4e11-a274-d73d103c18e5",
+        "uuid": "b457a508-56bf-4c51-90d6-5fe54fdc2762",
         "name": "COVID-19: consensus construction",
         "annotation": "Build a consensus sequence from FILTER PASS variants with intrasample allele-frequency above a configurable consensus threshold.\nHard-mask regions with low coverage (but not consensus variants within them) and ambiguous sites.",
         "tags": [
             "COVID-19",
             "covid19.galaxyproject.org"
         ],
-        "release": "0.4.4",
+        "release": "0.4.5",
         "collections": [
             "SARS-COV-2"
         ],
-        "updated": "2026-07-27T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "sars-cov-2-pe-illumina-artic-ivar-analysis-sars-cov-2-illumina-amplicon-ivar-pangolin-nextclade",
@@ -384,19 +399,19 @@
     {
         "iwcID": "sars-cov-2-se-illumina-wgs-variant-calling-covid-19-se-wgs-illumina",
         "trsID": "#workflow/github.com/iwc-workflows/sars-cov-2-se-illumina-wgs-variant-calling/COVID-19-SE-WGS-ILLUMINA",
-        "uuid": "5363c6e3-cb24-48cf-9c29-abac91a89826",
+        "uuid": "d64ea6fd-1aa1-4408-a735-2213cb187557",
         "name": "COVID-19: variation analysis on WGS SE data",
         "annotation": "This workflows performs single end read mapping with bowtie2 followed by sensitive variant calling across a wide range of AFs with lofreq",
         "tags": [
             "COVID-19",
             "covid19.galaxyproject.org"
         ],
-        "release": "0.1.8",
+        "release": "0.1.9",
         "collections": [
             "SARS-COV-2",
             "Variant Calling"
         ],
-        "updated": "2026-10-18T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "amr_gene_detection-main",
@@ -424,7 +439,7 @@
     {
         "iwcID": "bacterial_genome_annotation-main",
         "trsID": "#workflow/github.com/iwc-workflows/bacterial_genome_annotation/main",
-        "uuid": "689fc42c-3881-4d21-b6de-367e0bee0ef6",
+        "uuid": "76f0e537-f579-477a-b7b0-f783370eb949",
         "name": "Bacterial Genome Annotation",
         "annotation": "Annotation of an assembled bacterial genomes to detect genes, potential plasmids, integrons and Insertion sequence (IS) elements.",
         "tags": [
@@ -435,16 +450,16 @@
             "Annotation",
             "genome-annotation"
         ],
-        "release": "1.2.1",
+        "release": "1.2.2",
         "collections": [
             "Genome Annotation"
         ],
-        "updated": "2026-10-05T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "bacterial-quality-and-contamination-control-post-assembly-main",
         "trsID": "#workflow/github.com/iwc-workflows/bacterial-quality-and-contamination-control-post-assembly/main",
-        "uuid": "c662c6f2-89ac-4dc8-9db9-bcbb08e466e5",
+        "uuid": "229f418f-0069-4d5c-9d9b-98164176eae5",
         "name": "Post-Assembly Quality Control and Contamination Check for Bacterial Genomes",
         "annotation": "This workflow performs quality and contamination control analysis on assembled contigs to assess bacterial genome quality and taxonomic assignment",
         "tags": [
@@ -455,13 +470,13 @@
             "ABRomics",
             "fasta"
         ],
-        "release": "1.0.3",
+        "release": "1.0.4",
         "collections": [
             "Metagenomics",
             "Microbiome",
             "Bacterial Genomics"
         ],
-        "updated": "2026-10-05T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "cgmlst-bacterial-genome-main",
@@ -490,7 +505,7 @@
     {
         "iwcID": "haploid-variant-calling-wgs-pe-main",
         "trsID": "#workflow/github.com/iwc-workflows/haploid-variant-calling-wgs-pe/main",
-        "uuid": "6dde69f5-92ad-4eab-ae53-e70f7d2282e4",
+        "uuid": "631217df-8dfd-404a-a019-e01dab6d1fdf",
         "name": "Paired end variant calling in haploid system",
         "annotation": "Workflow for variant analysis against a reference genome in GenBank format",
         "tags": [
@@ -498,11 +513,11 @@
             "VeuPath",
             "Haploid"
         ],
-        "release": "0.4",
+        "release": "0.5",
         "collections": [
             "Variant Calling"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "variation-reporting-main",
@@ -523,13 +538,13 @@
     {
         "iwcID": "giraffe-deep-variant-pangenome-calling-main",
         "trsID": "#workflow/github.com/iwc-workflows/giraffe-deep-variant-pangenome-calling/main",
-        "uuid": "97147337-e24d-4d6d-bb32-f7947ab67c19",
+        "uuid": "532be83d-bd99-4765-91c0-57b07666c652",
         "name": "Pangenome Variant Calling using VG Giraffe and Google DeepVariant",
         "annotation": "This workflow performs small variant calling using pangenome reference graphs to generate a VCF and a gVCF file. It combines VG Giraffe for pangenomic read alignment and Google DeepVariant for variant calling.",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [],
-        "updated": "2026-09-14T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "generic-variant-calling-wgs-pe-main",
@@ -550,7 +565,7 @@
     {
         "iwcID": "ploidy-aware-genotype-calling-main",
         "trsID": "#workflow/github.com/iwc-workflows/ploidy-aware-genotype-calling/main",
-        "uuid": "06ccd011-2e6d-4552-b0a7-88c7ee6c8753",
+        "uuid": "7b2d5a7c-e80c-40e2-87d4-faeea32570be",
         "name": "Paired end variant and ploidy-aware genotype calling",
         "annotation": "This workflow performs variant and genotype calling on whole-genome paired-end sequencing data from organisms of any ploidy to produce annotated VCF and TSV files",
         "tags": [
@@ -558,11 +573,11 @@
             "Diploid",
             "FreeBayes"
         ],
-        "release": "0.1.4",
+        "release": "0.1.5",
         "collections": [
             "Variant Calling"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "annotation-maker-main",
@@ -585,15 +600,15 @@
     {
         "iwcID": "lncrnas-annotation-main",
         "trsID": "#workflow/github.com/iwc-workflows/lncRNAs-annotation/main",
-        "uuid": "eb532d61-4b26-41e3-aaa8-d1f850907948",
+        "uuid": "402ac3b8-f562-429a-b3e3-966127c7adbe",
         "name": "lncRNAs annotation workflow",
         "annotation": "This workflow runs the FEELnc tool to annotate long non-coding RNAs. Before annotating these long non-coding RNAs, StringTie will be used to assemble the RNA-seq alignments into potential trancriptions. The gffread tool provides a genome annotation file in GTF format.",
         "tags": [],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Genome Annotation"
         ],
-        "updated": "2026-06-08T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "annotation-braker3-main",
@@ -620,22 +635,33 @@
         "name": "Functional annotation of sequences",
         "annotation": "This workflow performs functional annotation of protein and nucleotide sequences (including CDS, genomes and metagenomes) using eggNOG-mapper and InterProScan, supports collection inputs and optional analysis steps, and can assess KEGG pathway completeness.",
         "tags": [],
-        "release": "0.3",
+        "release": "0.5",
         "collections": [],
-        "updated": "2026-03-27T00:00:00"
+        "updated": "2026-10-20T00:00:00"
+    },
+    {
+        "iwcID": "eggnog-mapper-abundance-tables-main",
+        "trsID": "#workflow/github.com/iwc-workflows/eggnog-mapper-abundance-tables/main",
+        "uuid": "1a013be1-ac53-40da-ae05-385908d7354a",
+        "name": "Extract eggNOG-mapper annotation abundance tables",
+        "annotation": "This workflow extracts and consolidates annotation abundance tables (e.g., GO, KEGG) from eggNOG-mapper outputs across a collection of samples.",
+        "tags": [],
+        "release": "0.1",
+        "collections": [],
+        "updated": "2026-10-01T00:00:00"
     },
     {
         "iwcID": "repeatmasking-main",
         "trsID": "#workflow/github.com/iwc-workflows/repeatmasking/main",
-        "uuid": "f25be8fa-7823-456f-9707-a497703f48d7",
+        "uuid": "af3474b8-ca4c-4825-845c-4b3fbee29de0",
         "name": "Repeat masking with RepeatModeler and RepeatMasker",
-        "annotation": "",
+        "annotation": "This workflow models de novo repeat families in a genome with RepeatModeler, then runs RepeatMasker with a Dfam library on the resulting consensus sequences.",
         "tags": [],
-        "release": "0.1",
+        "release": "0.2",
         "collections": [
             "Genome Annotation"
         ],
-        "updated": "2023-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "fragment-based-docking-scoring-main",
@@ -882,18 +908,18 @@
     {
         "iwcID": "rnaseq-pe-main",
         "trsID": "#workflow/github.com/iwc-workflows/rnaseq-pe/main",
-        "uuid": "a05dff91-c8b2-400e-a634-b7bcdd726863",
+        "uuid": "1299a22f-977e-43f1-86bd-c1ab4cbd594f",
         "name": "RNA-Seq Analysis: Paired-End Read Processing and Quantification",
         "annotation": "Complete RNA-Seq analysis for paired-end data: Processes raw FASTQ data through adapter and bad quality removal (fastp), alignment with STAR using ENCODE parameters, gene quantification via multiple methods (STAR and featureCounts), and expression calculation (FPKM with Cufflinks/StringTie, normalized coverage with bedtools). Produces count tables, normalized expression values, and genomic coverage tracks. Supports stranded and unstranded libraries, generating both HTSeq-compatible counts and normalized measures for downstream analysis.",
         "tags": [
             "RNAseq",
             "transcriptomics"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "rnaseq-de-main",
@@ -927,36 +953,36 @@
     {
         "iwcID": "brew3r-main",
         "trsID": "#workflow/github.com/iwc-workflows/brew3r/main",
-        "uuid": "6fe5a54d-0c37-4138-bf56-079ab6cba948",
+        "uuid": "d474a12c-095e-4e8b-b4b3-140bc4d7b8e9",
         "name": "BREW3R",
         "annotation": "Extends 3' ends of gene annotations using BAM files (from STAR alignments) and a reference GTF. Specifically designed for 3'-biased sequencing techniques like 10X scRNA-seq or BRB-seq that primarily capture transcript 3' ends. The BREW3R tool enhances annotations by using evidence from RNA-seq data to improve 3' UTR definitions, which is particularly important for accurate quantification in single-cell and bulk RNA-seq experiments.",
         "tags": [],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-06-08T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "rnaseq-sr-main",
         "trsID": "#workflow/github.com/iwc-workflows/rnaseq-sr/main",
-        "uuid": "77261367-d768-4bc6-8fdd-2a1ef53f2a93",
+        "uuid": "ff28ff36-e131-47a3-965c-4be194696f56",
         "name": "RNA-Seq Analysis: Single-End Read Processing and Quantification",
         "annotation": "Complete RNA-Seq analysis for single-end data:  Processes raw FASTQ data through adapter and bad quality removal (fastp), alignment with STAR using ENCODE parameters, gene quantification via multiple methods (STAR and featureCounts), and expression calculation (FPKM with Cufflinks/StringTie, normalized coverage with bedtools). Produces count tables, normalized expression values, and genomic coverage tracks. Supports stranded and unstranded libraries, generating both HTSeq-compatible counts and normalized measures for downstream analysis.",
         "tags": [
             "RNAseq",
             "transcriptomics"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Transcriptomics"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "multivariable-association-analysis-main",
         "trsID": "#workflow/github.com/iwc-workflows/multivariable-association-analysis/main",
-        "uuid": "13118b29-66de-4343-b092-0e751d7d6b31",
+        "uuid": "e3354236-4fdd-4c0c-96f8-b5a7958fc3f2",
         "name": "Multivariable Association Analysis of Amplicon Data",
         "annotation": "This workflow performs optional control-based decontamination and control removal, MMUPHin batch-effect correction and MaAsLin3 multivariable association analysis at ASV and genus level on amplicon data from a phyloseq object and sample metadata.",
         "tags": [
@@ -967,9 +993,9 @@
             "batch-effect-correction",
             "differential-abundance"
         ],
-        "release": "0.1",
+        "release": "0.2",
         "collections": [],
-        "updated": "2026-09-28T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "dada2-main",
@@ -1093,7 +1119,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-paired-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-paired-end/main",
-        "uuid": "7d6f7b91-c135-4d00-8af7-5623a6a21358",
+        "uuid": "23cf9301-eee4-48ab-8fab-1588a09982a2",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control PE",
         "annotation": "Quality control subworkflow for paired-end reads. ",
         "tags": [
@@ -1102,11 +1128,11 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.9",
+        "release": "0.10",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-its-main",
@@ -1142,7 +1168,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-complete-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-complete/main",
-        "uuid": "a8b2c64f-ed75-4dd7-9871-3a3b34b1095d",
+        "uuid": "e90170a6-271b-42c2-b34e-7644d12576a3",
         "name": "MGnify's amplicon pipeline v5.0",
         "annotation": "MGnify's amplicon pipeline v5.0. Including the Quality control for single-end and paired-end reads, rRNA-prediction, and ITS sub-WFs.",
         "tags": [
@@ -1151,11 +1177,11 @@
             "amplicon",
             "name:microgalaxy"
         ],
-        "release": "0.9",
+        "release": "0.10",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-single-end-main",
@@ -1250,7 +1276,7 @@
     {
         "iwcID": "nanopore-pre-processing-main",
         "trsID": "#workflow/github.com/iwc-workflows/nanopore-pre-processing/main",
-        "uuid": "87231cf3-4966-4a9d-99f1-deb4c502a0d7",
+        "uuid": "5e3e6f8e-0b9f-4f2e-a688-7a1748f1becb",
         "name": "Nanopore Preprocessing",
         "annotation": "Microbiome - QC and Contamination Filtering",
         "tags": [
@@ -1260,11 +1286,11 @@
             "name:Nanopore",
             "name:IWC"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "taxonomy-profiling-and-visualization-with-krona-main",
@@ -1323,18 +1349,18 @@
     {
         "iwcID": "metagenomic-assembly-main",
         "trsID": "#workflow/github.com/iwc-workflows/metagenomic-assembly/main",
-        "uuid": "64c9ed09-702b-4e3d-a207-4b6aa8c9d3fd",
+        "uuid": "8df4b66a-d05c-47da-9cab-b52b74db6143",
         "name": "Metagenomic Assembly",
         "annotation": "This workflow performs metagenomic assembly of paired-end short reads with MEGAHIT or metaSPAdes (optionally adding Nanopore or PacBio long reads to metaSPAdes), or takes custom assemblies, and evaluates the assemblies with QUAST. It is designed as a reusable building block for larger metagenomic analysis workflows such as MAGs generation.",
         "tags": [],
-        "release": "1.0",
+        "release": "1.1",
         "collections": [],
-        "updated": "2026-09-29T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "metagenomic-raw-reads-amr-analysis-main",
         "trsID": "#workflow/github.com/iwc-workflows/metagenomic-raw-reads-amr-analysis/main",
-        "uuid": "a825fb98-ad98-436b-9ce5-a264edf93987",
+        "uuid": "4f842cc9-e106-4e0f-964e-09ed4f09d9ab",
         "name": "Metagenomics Taxonomic and Antibiotic Resistance Gene (ARG) Profiling",
         "annotation": "This workflow starts from metagenomics short-read data and performs, taxonomic profiling (using Sylph), predicts Antibiotic Resistance Genes (ARGs) (using Groot and deepARG), and standardizes ARG annotations (using argNorm).",
         "tags": [
@@ -1345,11 +1371,11 @@
             "ABRomics",
             "short-reads"
         ],
-        "release": "1.2.1",
+        "release": "1.2.2",
         "collections": [
             "Metagenomics"
         ],
-        "updated": "2026-07-20T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "mags-building-main",
@@ -1360,11 +1386,11 @@
         "tags": [
             "name:FAIRyMAGs"
         ],
-        "release": "0.7",
+        "release": "0.9",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-08-03T00:00:00"
+        "updated": "2026-10-01T00:00:00"
     },
     {
         "iwcID": "mag-genome-annotation-parallel-main",
@@ -1373,29 +1399,29 @@
         "name": "MAG Genome Annotation Parallel",
         "annotation": "This workflow performs automated, parallel annotation of metagenome-assembled genomes (MAGs) to generate standardized annotation outputs, merged summary tables, and integrated quality reports across all genomes.",
         "tags": [],
-        "release": "0.5",
+        "release": "0.6",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-09-23T00:00:00"
     },
     {
         "iwcID": "mags-taxonomy-annotation-main",
         "trsID": "#workflow/github.com/iwc-workflows/mags-taxonomy-annotation/main",
-        "uuid": "f46de292-b723-4f0b-8c46-c0e07b3a34a7",
+        "uuid": "7b110de2-ecec-4c93-a6ab-7828f91b1552",
         "name": "MAGs taxonomy annotation",
         "annotation": "This workflow performs taxonomic classification of an input sequence collection (e.g., bins from SemiBin2 or MetaBat) using GTDB-Tk and kMetaShot (optional). GTDB-Tk taxonomy is mapped to NCBI taxIDs and names to reconcile differences between NCBI/GTDB taxonomies.\n",
         "tags": [],
-        "release": "0.4",
+        "release": "0.6",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-20T00:00:00"
     },
     {
         "iwcID": "host-contamination-removal-short-reads-main",
         "trsID": "#workflow/github.com/iwc-workflows/host-contamination-removal-short-reads/main",
-        "uuid": "9c94af2a-498e-45f4-9f94-17facabbb3f2",
+        "uuid": "681217f9-42dc-40d8-ba13-20c5db29b5d5",
         "name": "Host or Contamination Removal on Short-Reads",
         "annotation": "This workflow takes paired-end Illumina fastq(.gz) files and runs Bowtie to map the reads against a reference genome (human, by default) and keep only the reads that do not align. MultiQC is used to aggregate the mapping reports.",
         "tags": [
@@ -1403,12 +1429,12 @@
             "contamination",
             "short_reads"
         ],
-        "release": "0.4",
+        "release": "0.6",
         "collections": [
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-03-17T00:00:00"
+        "updated": "2026-10-20T00:00:00"
     },
     {
         "iwcID": "host-contamination-removal-long-reads-main",
@@ -1421,12 +1447,12 @@
             "contamination",
             "long_reads"
         ],
-        "release": "0.5",
+        "release": "0.6",
         "collections": [
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-07-13T00:00:00"
+        "updated": "2026-09-23T00:00:00"
     },
     {
         "iwcID": "multi-sample-binning-main",
@@ -1457,7 +1483,7 @@
     {
         "iwcID": "metagenomic-genes-catalogue-main",
         "trsID": "#workflow/github.com/iwc-workflows/metagenomic-genes-catalogue/main",
-        "uuid": "a5c8cef2-517a-4f15-8c2f-00de444f550a",
+        "uuid": "5b5917c3-40e0-4046-903c-ff85d7c44c96",
         "name": "Metagenomic Genes Catalogue Analysis",
         "annotation": "Metagenomic analysis, from raw reads to gene catalog. Uses Megahit to assemble contigs and Prodgial to predict CDSs on contigs to provide the gene catalog. Finally, functional, taxonomic, and antimicrobial resistance information is provided.",
         "tags": [
@@ -1467,62 +1493,73 @@
             "genes-collection",
             "paired-collection(s)"
         ],
-        "release": "1.4",
+        "release": "1.5",
         "collections": [
             "Genome Annotation",
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-10-05T00:00:00"
+        "updated": "2026-10-19T00:00:00"
+    },
+    {
+        "iwcID": "single-sample-binning-main",
+        "trsID": "#workflow/github.com/iwc-workflows/single-sample-binning/main",
+        "uuid": "0d3f0f2f-537d-4142-9221-f64ea62ce7f4",
+        "name": "Single-sample binning",
+        "annotation": "This workflow performs single-sample binning of metagenomic assemblies with CONCOCT, MaxBin2, MetaBAT2, SemiBin and optionally COMEBin, using read coverage, and refines the bins with DAS Tool and/or Binette.",
+        "tags": [],
+        "release": "1.0",
+        "collections": [],
+        "updated": "2026-09-23T00:00:00"
     },
     {
         "iwcID": "pox-virus-amplicon-main",
         "trsID": "#workflow/github.com/iwc-workflows/pox-virus-amplicon/main",
-        "uuid": "48320126-a9dd-448d-bd0d-81c9be5e5492",
+        "uuid": "ae9ed198-85de-4f34-ac50-8802d64a515e",
         "name": "Pox Virus Illumina Amplicon Workflow from half-genomes",
         "annotation": "A workflow for the analysis of pox virus genomes sequenced as half-genomes (for ITR resolution) in a tiled-amplicon approach",
         "tags": [
             "pox",
             "virology"
         ],
-        "release": "0.6",
+        "release": "0.7",
         "collections": [
             "Virology"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "generic-non-segmented-viral-variant-calling-main",
         "trsID": "#workflow/github.com/iwc-workflows/generic-non-segmented-viral-variant-calling/main",
-        "uuid": "ec7341f8-66e6-4734-816e-284c0da7d476",
+        "uuid": "d0ce58e8-faf6-498f-a4df-a4e5f4460495",
         "name": "Variant calling and consensus construction from paired end short read data of non-segmented viral genomes",
         "annotation": "Variant calling and consensus sequence generation for batches of Illumina PE sequenced viruses with uncomplicated and stable genome structure (like e.g. Morbilliviruses).",
         "tags": [
             "ARTIC",
             "virology"
         ],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Variant Calling",
             "Virology"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "influenza-isolates-consensus-and-subtyping-main",
         "trsID": "#workflow/github.com/iwc-workflows/influenza-isolates-consensus-and-subtyping/main",
-        "uuid": "6a1ea7f0-2e80-4f8a-b854-80036632045e",
+        "uuid": "90b195c7-4257-45e1-884e-bd8bad92998e",
         "name": "Influenza A isolate subtyping and consensus sequence generation",
         "annotation": "This workflow performs subtyping and consensus sequence generation for batches of Illumina PE sequenced Influenza A isolates.",
         "tags": [
             "AIV",
             "virology"
         ],
-        "release": "0.4",
+        "release": "0.5",
         "collections": [
             "Virology"
         ],
-        "updated": "2026-09-21T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "scaffolding-hic-vgp8-main",
@@ -1542,33 +1579,33 @@
     {
         "iwcID": "purge-duplicate-contigs-vgp6-main",
         "trsID": "#workflow/github.com/iwc-workflows/Purge-duplicate-contigs-VGP6/main",
-        "uuid": "ba371ec8-98bc-4d23-b63e-d76d48dfe948",
+        "uuid": "cce97c87-9195-43ee-8d07-eefbdb15ecd9",
         "name": "Purge duplicate contigs from a diploid assembly VGP6",
         "annotation": "Purge contigs marked as duplicates by purge_dups. ",
         "tags": [
             "VGP_curated"
         ],
-        "release": "0.10.7",
+        "release": "0.10.8",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-09-28T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "kmer-profiling-hifi-vgp1-main",
         "trsID": "#workflow/github.com/iwc-workflows/kmer-profiling-hifi-VGP1/main",
-        "uuid": "0eeba255-5c85-41d3-9412-e288ab944c8c",
+        "uuid": "d2fcd3be-90fc-47dd-accf-d2b12ec1e96d",
         "name": "K-mer profiling and reads statistics VGP1",
         "annotation": "Evaluation of Pacbio Hifi Reads and genome profiling. Create Meryl Database used for the estimation of assembly parameters and quality control with Merqury. Part of the VGP pipeline.",
         "tags": [
             "Reviewed",
             "VGP"
         ],
-        "release": "0.10",
+        "release": "0.11",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-06-22T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "mitogenome-assembly-vgp0-main",
@@ -1589,7 +1626,7 @@
     {
         "iwcID": "post-curation-processing-main",
         "trsID": "#workflow/github.com/iwc-workflows/post-curation-processing/main",
-        "uuid": "2a735b18-b533-447b-b2b4-1541df68165e",
+        "uuid": "28787b6c-6cca-4e96-994d-459a231ffc08",
         "name": "Post-curation assembly processing and evaluation",
         "annotation": "Post-curation processing workflow for VGP assemblies. Takes a curated AGP file and combined haplotype FASTA, splits by haplotype, applies curation, assigns chromosome names, renames and reorients hap2 to match hap1, then generates QC outputs including Compleasm, Pretext maps, telomere analysis, and coverage tracks.",
         "tags": [
@@ -1597,38 +1634,38 @@
             "assembly",
             "post-curation"
         ],
-        "release": "0.2",
+        "release": "0.3",
         "collections": [],
-        "updated": "2026-07-31T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "hi-c-contact-map-for-assembly-manual-curation-main",
         "trsID": "#workflow/github.com/iwc-workflows/hi-c-contact-map-for-assembly-manual-curation/main",
-        "uuid": "9a0f2276-4487-4582-a510-e1f5d69512aa",
+        "uuid": "3c9932fb-0d68-4079-9c6d-2b7b37dc29ad",
         "name": "PretextMap Generation from 1 or 2 haplotypes",
         "annotation": "This workflow generates Hi-C contact maps for genome assemblies in the Pretext format. It is compatible with one or 2 haplotypes. It includes tracks for PacBio read coverage, Gaps, and telomeres. The Pretext files can be open in PretextView for the manual curation of genome assemblies.",
         "tags": [],
-        "release": "2.5",
+        "release": "2.6",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-08-31T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "assembly-hifi-trio-phasing-vgp5-main",
         "trsID": "#workflow/github.com/iwc-workflows/Assembly-Hifi-Trio-phasing-VGP5/main",
-        "uuid": "7f86cccd-e911-42d2-b4b7-142d43f826a7",
+        "uuid": "2092a063-bfbb-48a4-879e-7d465cda3d34",
         "name": "Genome Assembly with Pacbio Hifi reads and Trio data for phasing - VGP5",
         "annotation": "Generate phased assembly based on PacBio HiFi reads and parental Illumina data for phasing. Part of the VGP workflow suite, it needs to be run after the Trio k-mer Profiling workflow VGP2. This workflow uses HiFiasm for contigging, and generates assembly statistics, BUSCO reports, Merqury plots, and the genome assembly contigs in fasta and GFA format. ",
         "tags": [
             "VGP",
             "Reviewed"
         ],
-        "release": "0.9.12",
+        "release": "0.9.13",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "plot-nx-size-main",
@@ -1646,49 +1683,49 @@
     {
         "iwcID": "assembly-hifi-only-vgp3-main",
         "trsID": "#workflow/github.com/iwc-workflows/Assembly-Hifi-only-VGP3/main",
-        "uuid": "faa3324c-c7a4-4ca1-b65b-0917f98658dc",
+        "uuid": "32ca07a0-f7bd-47be-a5e7-736d5167090b",
         "name": "Genome Assembly from Hifi reads - VGP3",
         "annotation": "Generate a genome assembly based on PacBio HiFi reads. Part of the VGP suite, it needs to be run after the VGP1 k-mer profiling workflow. The assembly contigs are built using HiFiasm, and the workflow generates assembly statistics, Compleasm reports, Merqury plots, and the contigs in fasta and GFA formats.",
         "tags": [
             "VGP",
             "Reviewed"
         ],
-        "release": "0.3.8",
+        "release": "0.3.9",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "assembly-hifi-hic-phasing-vgp4-main",
         "trsID": "#workflow/github.com/iwc-workflows/Assembly-Hifi-HiC-phasing-VGP4/main",
-        "uuid": "c1d17363-069e-4a73-98e9-c84e8034af1c",
+        "uuid": "0a04df9d-5d35-4d0f-8420-2156387c7e9f",
         "name": "Genome Assembly from Hifi reads with HiC phasing - VGP4",
         "annotation": "Assemble Genome using PacBio HiFi and HiC data from the same individual for phasing. Prerequisite: Run k-mer profiling workflow (VGP1). This workflow uses HiFiasm for contigging, and generates assembly statistics, Compleasm reports, Merqury histograms, and the genome assembly contigs in fasta and GFA format.",
         "tags": [
             "VGP",
             "Reviewed"
         ],
-        "release": "0.9",
+        "release": "0.10",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "purge-duplicates-one-haplotype-vgp6b-main",
         "trsID": "#workflow/github.com/iwc-workflows/Purge-duplicates-one-haplotype-VGP6b/main",
-        "uuid": "4b50a0f7-50aa-4fca-9d54-c24e50ca502c",
+        "uuid": "e074eb81-65c0-41f1-bc63-08fd82601569",
         "name": "Purging duplicates in one haplotype VGP6b",
         "annotation": "Purge contigs marked as duplicates by purge_dups in a single haplotype (could be haplotypic duplication or overlap duplication). If you think the purged contigs might belong to the other haplotype, use the workflow VGP6 instead. This workflow is the 6th workflow of the VGP pipeline. It is meant to be run after one of the contigging steps (Workflow 3, 4, or 5).",
         "tags": [
             "VGP_curated"
         ],
-        "release": "0.8.6",
+        "release": "0.8.7",
         "collections": [
             "Vertebrate Genome Project"
         ],
-        "updated": "2026-08-24T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "scaffolding-bionano-vgp7-main",
@@ -1754,15 +1791,15 @@
     {
         "iwcID": "multiplex-tissue-microarray-analysis-main",
         "trsID": "#workflow/github.com/iwc-workflows/multiplex-tissue-microarray-analysis/main",
-        "uuid": "e1e03230-4fba-41b3-a10f-094333c29039",
+        "uuid": "0df44059-de7d-4028-959d-c48330e48f83",
         "name": "Multiplex Tissue Microarray Analysis",
         "annotation": "Perform background subtraction, nuclear segmentation, feature quantification, cellular phenotyping, spatial analysis, and interactive visualization of registered TMA core multiplex tissue images",
         "tags": [],
-        "release": "0.1.3",
+        "release": "0.1.4",
         "collections": [
             "Imaging"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "histological-staining-area-quantification-histological-staining-area-quantification",
@@ -1839,16 +1876,16 @@
     {
         "iwcID": "qcxms-sdf-main",
         "trsID": "#workflow/github.com/iwc-workflows/qcxms-sdf/main",
-        "uuid": "d8501098-c32d-4f42-8885-6c5aa09b0ec9",
+        "uuid": "c581cc7f-45d9-4295-b5c4-16142f3a19b3",
         "name": "QCxMS Spectra Prediction from SDF",
         "annotation": "Workflow to predict EI mass spectra using QCxMS starting from a single SDF file, containing the 3D coordinates of all atoms in the molecule. These files can typically be obtained from PubChem.",
         "tags": [],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Computational Chemistry",
             "Metabolomics"
         ],
-        "updated": "2026-02-23T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "gcms-metams-main",
@@ -1887,20 +1924,20 @@
     {
         "iwcID": "assembly-with-flye-main",
         "trsID": "#workflow/github.com/iwc-workflows/assembly-with-flye/main",
-        "uuid": "a931e57c-44bb-4396-85aa-aa9ac19ff51b",
+        "uuid": "90830ed0-c603-4d90-a72d-5d7a4cdbda28",
         "name": "Genome assembly with Flye",
         "annotation": "Assemble long reads with Flye, then view assembly statistics and assembly graph",
         "tags": [],
-        "release": "0.4",
+        "release": "0.5",
         "collections": [
             "Genome assembly"
         ],
-        "updated": "2025-10-06T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "quality-and-contamination-control-raw-reads-main",
         "trsID": "#workflow/github.com/iwc-workflows/quality-and-contamination-control-raw-reads/main",
-        "uuid": "989c8855-86a4-41cf-b5ac-c22f3e404ed0",
+        "uuid": "c9812cec-bf15-47e4-be97-abe1cdbc74f0",
         "name": "Raw Read Quality and Contamination Control For Genome Assembly",
         "annotation": "Short paired-end read analysis to provide quality analysis, read cleaning and taxonomy assignation directly from raw reads",
         "tags": [
@@ -1913,11 +1950,11 @@
             "ABRomics",
             "trimming"
         ],
-        "release": "1.1.12",
+        "release": "1.1.13",
         "collections": [
             "Bacterial Genomics"
         ],
-        "updated": "2025-12-08T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "bacterial-genome-assembly-main",
@@ -1982,7 +2019,7 @@
     {
         "iwcID": "short-read-qc-trimming-main",
         "trsID": "#workflow/github.com/iwc-workflows/short-read-qc-trimming/main",
-        "uuid": "bfd8b0dc-aad9-4eed-99ae-635e8844f932",
+        "uuid": "c7aef86a-c401-4c0f-ba7b-9341c9a9c953",
         "name": "Short-read quality control and trimming",
         "annotation": "This workflow performs quality control and trimming on paired-end Illumina fastq(.gz) files using fastp and aggregates the quality control reports with MultiQC",
         "tags": [
@@ -1993,10 +2030,10 @@
             "eukaryotes",
             "archea"
         ],
-        "release": "0.4",
+        "release": "0.6",
         "collections": [
             "Quality Control and Pre-processing"
         ],
-        "updated": "2026-06-22T00:00:00"
+        "updated": "2026-10-20T00:00:00"
     }
 ]
