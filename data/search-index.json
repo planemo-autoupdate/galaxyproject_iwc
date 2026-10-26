@@ -416,7 +416,7 @@
     {
         "iwcID": "amr_gene_detection-main",
         "trsID": "#workflow/github.com/iwc-workflows/amr_gene_detection/main",
-        "uuid": "e3da62ad-1fb2-4a4d-bd2a-0747af49ef8d",
+        "uuid": "17d176cd-f3df-4531-b222-93fe977b376a",
         "name": "AMR Gene Detection",
         "annotation": "Antimicrobial resistance gene detection from assembled bacterial genomes",
         "tags": [
@@ -430,11 +430,11 @@
             "AMR",
             "AMR-detection"
         ],
-        "release": "1.1.8",
+        "release": "1.1.9",
         "collections": [
             "Genome Annotation"
         ],
-        "updated": "2026-03-15T00:00:00"
+        "updated": "2026-10-19T00:00:00"
     },
     {
         "iwcID": "bacterial_genome_annotation-main",
@@ -1168,7 +1168,7 @@
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-complete-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-complete/main",
-        "uuid": "e90170a6-271b-42c2-b34e-7644d12576a3",
+        "uuid": "6827aad1-3018-4881-bcac-f12b31340faa",
         "name": "MGnify's amplicon pipeline v5.0",
         "annotation": "MGnify's amplicon pipeline v5.0. Including the Quality control for single-end and paired-end reads, rRNA-prediction, and ITS sub-WFs.",
         "tags": [
@@ -1177,16 +1177,16 @@
             "amplicon",
             "name:microgalaxy"
         ],
-        "release": "0.10",
+        "release": "0.11",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-10-19T00:00:00"
+        "updated": "2026-10-23T00:00:00"
     },
     {
         "iwcID": "mgnify-amplicon-pipeline-v5-quality-control-single-end-main",
         "trsID": "#workflow/github.com/iwc-workflows/mgnify-amplicon-pipeline-v5-quality-control-single-end/main",
-        "uuid": "6b6cfc74-c55e-492f-b10d-a957f19b25a4",
+        "uuid": "a7ff1858-22a7-4623-9ae4-e1dd9843c5c1",
         "name": "MGnify's amplicon pipeline v5.0 - Quality control SE",
         "annotation": "Quality control subworkflow for single-end reads.",
         "tags": [
@@ -1195,11 +1195,11 @@
             "metagenomics",
             "name:microgalaxy"
         ],
-        "release": "0.7",
+        "release": "0.8",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-09-07T00:00:00"
+        "updated": "2026-10-23T00:00:00"
     },
     {
         "iwcID": "taxonomic-rank-abundance-summary-table-main",
@@ -1276,7 +1276,7 @@
     {
         "iwcID": "nanopore-pre-processing-main",
         "trsID": "#workflow/github.com/iwc-workflows/nanopore-pre-processing/main",
-        "uuid": "5e3e6f8e-0b9f-4f2e-a688-7a1748f1becb",
+        "uuid": "95e34622-2424-4c73-a194-8070a53038c5",
         "name": "Nanopore Preprocessing",
         "annotation": "Microbiome - QC and Contamination Filtering",
         "tags": [
@@ -1286,11 +1286,11 @@
             "name:Nanopore",
             "name:IWC"
         ],
-        "release": "0.3",
+        "release": "0.4",
         "collections": [
             "Microbiome"
         ],
-        "updated": "2026-10-19T00:00:00"
+        "updated": "2026-10-23T00:00:00"
     },
     {
         "iwcID": "taxonomy-profiling-and-visualization-with-krona-main",
@@ -1421,7 +1421,7 @@
     {
         "iwcID": "host-contamination-removal-short-reads-main",
         "trsID": "#workflow/github.com/iwc-workflows/host-contamination-removal-short-reads/main",
-        "uuid": "681217f9-42dc-40d8-ba13-20c5db29b5d5",
+        "uuid": "cb7bb503-6f9a-4b62-9e3d-6bcafd9ae869",
         "name": "Host or Contamination Removal on Short-Reads",
         "annotation": "This workflow takes paired-end Illumina fastq(.gz) files and runs Bowtie to map the reads against a reference genome (human, by default) and keep only the reads that do not align. MultiQC is used to aggregate the mapping reports.",
         "tags": [
@@ -1429,12 +1429,12 @@
             "contamination",
             "short_reads"
         ],
-        "release": "0.6",
+        "release": "0.7",
         "collections": [
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-10-20T00:00:00"
+        "updated": "2026-10-23T00:00:00"
     },
     {
         "iwcID": "host-contamination-removal-long-reads-main",
@@ -2019,7 +2019,7 @@
     {
         "iwcID": "short-read-qc-trimming-main",
         "trsID": "#workflow/github.com/iwc-workflows/short-read-qc-trimming/main",
-        "uuid": "c7aef86a-c401-4c0f-ba7b-9341c9a9c953",
+        "uuid": "d98ad812-29e4-4135-9265-1383a83b5285",
         "name": "Short-read quality control and trimming",
         "annotation": "This workflow performs quality control and trimming on paired-end Illumina fastq(.gz) files using fastp and aggregates the quality control reports with MultiQC",
         "tags": [
@@ -2030,10 +2030,10 @@
             "eukaryotes",
             "archea"
         ],
-        "release": "0.6",
+        "release": "0.7",
         "collections": [
             "Quality Control and Pre-processing"
         ],
-        "updated": "2026-10-20T00:00:00"
+        "updated": "2026-10-23T00:00:00"
     }
 ]
