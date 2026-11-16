@@ -1495,7 +1495,7 @@
     {
         "iwcID": "metagenomic-genes-catalogue-main",
         "trsID": "#workflow/github.com/iwc-workflows/metagenomic-genes-catalogue/main",
-        "uuid": "5b5917c3-40e0-4046-903c-ff85d7c44c96",
+        "uuid": "b0c01647-8b79-4ae7-905d-b85045ca08e7",
         "name": "Metagenomic Genes Catalogue Analysis",
         "annotation": "Metagenomic analysis, from raw reads to gene catalog. Uses Megahit to assemble contigs and Prodgial to predict CDSs on contigs to provide the gene catalog. Finally, functional, taxonomic, and antimicrobial resistance information is provided.",
         "tags": [
@@ -1505,13 +1505,13 @@
             "genes-collection",
             "paired-collection(s)"
         ],
-        "release": "1.6",
+        "release": "1.7",
         "collections": [
             "Genome Annotation",
             "Metagenomics",
             "Microbiome"
         ],
-        "updated": "2026-10-28T00:00:00"
+        "updated": "2026-11-13T00:00:00"
     },
     {
         "iwcID": "single-sample-binning-main",
