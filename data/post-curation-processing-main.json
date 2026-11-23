@@ -18386,6 +18386,7 @@
     "dockstore_id": 37203,
     "categories": [
         "Chromatin conformation analysis",
+        "Genome alignment",
         "Genome comparison",
         "Genome visualization",
         "Haplotype-resolved assembly",
@@ -18406,6 +18407,7 @@
         "FASTQ",
         "DNA sequence",
         "Long-read sequencing data",
+        "Nucleic acid sequence",
         "Sequence assembly",
         "Sequence motif (nucleic acid)",
         "AGP",
@@ -18416,6 +18418,7 @@
         "CSV",
         "FASTA",
         "GTF",
+        "SAM",
         "Annotation track",
         "Chromatin contact matrix",
         "DNA sequence",
@@ -18423,7 +18426,9 @@
         "Sequence assembly",
         "Sequence features"
     ],
-    "collections": [],
+    "collections": [
+        "Vertebrate Genome Project"
+    ],
     "doi": "10.5281/zenodo.20448693",
     "tests": [
         {

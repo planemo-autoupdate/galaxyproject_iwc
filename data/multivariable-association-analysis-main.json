@@ -5176,6 +5176,7 @@
     "categories": [
         "Batch effect correction",
         "Microbial differential abundance analysis",
+        "Statistical inference",
         "Data quality management",
         "Metabarcoding",
         "Microbiome",
@@ -5186,17 +5187,23 @@
         "Q-value",
         "Sample annotation",
         "Taxonomic profile",
+        "Taxonomy",
         "CSV",
         "PDF",
         "PNG",
         "Count matrix",
+        "Heat map",
         "Ordination plot",
+        "P-value",
         "Plot",
+        "Q-value",
         "Quality control report",
         "Sample annotation",
         "Taxonomic profile"
     ],
-    "collections": [],
+    "collections": [
+        "Metabarcoding"
+    ],
     "doi": "10.5281/zenodo.23453200",
     "tests": [
         {
