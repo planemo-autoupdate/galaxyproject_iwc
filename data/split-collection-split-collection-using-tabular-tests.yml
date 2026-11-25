@@ -1,0 +1,62 @@
+- doc: Test outline for Split-collection-using-tabular.ga
+  job:
+    Input Dataset Collection:
+      class: Collection
+      collection_type: list
+      elements:
+      - class: File
+        filetype: txt
+        identifier: cat1_1
+        location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/file.txt
+      - class: File
+        filetype: txt
+        identifier: cat1_2
+        location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/file.txt
+      - class: File
+        filetype: txt
+        identifier: cat1_3
+        location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/file.txt
+      - class: File
+        filetype: txt
+        identifier: cat2_1
+        location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/file.txt
+      - class: File
+        filetype: txt
+        identifier: cat3_1
+        location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/file.txt
+    identifier mapping:
+      class: File
+      datatype: tabular
+      filetype: txt
+      location: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/data-organization/split-collection/test-data/group_assignment.txt
+  outputs:
+    collection_first_group:
+      class: Collection
+      collection_type: list
+      element_count: 3
+      element_tests:
+        cat1_1:
+          asserts:
+            has_text:
+              text: whatever
+        cat1_2:
+          asserts:
+            has_text:
+              text: whatever
+        cat1_3:
+          asserts:
+            has_text:
+              text: whatever
+    collection_other:
+      class: Collection
+      collection_type: list
+      element_count: 2
+      element_tests:
+        cat2_1:
+          asserts:
+            has_text:
+              text: whatever
+        cat3_1:
+          asserts:
+            has_text:
+              text: whatever
